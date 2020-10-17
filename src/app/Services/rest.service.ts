@@ -19,7 +19,7 @@ export class RestService {
   readResults() {
     return this.http.get(this.backendAddress1);
     // return this.http.get(`${this.url}/output1`);
-    console.log('hello');
+    // console.log('hello');
   }
 
   // tslint:disable-next-line: typedef
